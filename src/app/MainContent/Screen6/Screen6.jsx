@@ -1,9 +1,8 @@
 "use client";
 import Image from "next/image";
 import RSideWindow from "./RSideWindow";
-import Button from "@/app/Header/Button";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 export default function Screen6() {
   const initialAnimation = {
     hidden: {
@@ -78,7 +77,7 @@ export default function Screen6() {
         viewport={{ once: true, amount: 0.3 }}
       >
         <Image
-          src="/images/contact-bg.jpg"
+          src="/contact-bg.jpg"
           fill
           alt="image"
           loading="lazy"

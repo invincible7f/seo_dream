@@ -1,7 +1,6 @@
 import { features } from "./features";
 import Progress from "./Progress";
 import Screen2ContentBlock from "./Screen2ContentBlock";
-import { useState } from "react";
 export default function Screen2() {
   const progress = [
     {

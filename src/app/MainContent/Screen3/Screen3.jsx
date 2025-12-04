@@ -16,7 +16,7 @@ export default function Screen3() {
   const ImageBlock = (
     <div className="relative w-[295px] xl:w-[591px] h-auto lg:w-[411px] lg:h-auto aspect-square sm:w-[311px]">
       <Image
-        src="/images/about-left-image.png"
+        src="/about-left-image.png"
         fill
         alt="number 1"
         loading="lazy"
