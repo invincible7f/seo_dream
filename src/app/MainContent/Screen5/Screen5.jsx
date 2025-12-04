@@ -16,23 +16,23 @@ export default function Screen5() {
   return (
     <div className="max-w-full w-full pt-28 h-auto  lg:w-full sm:pl-20 sm:pr-20 flex overflow-hidden pb-32">
       <div className=" max-w-full w-full lg:w-[1740px] ">
-        <div className=" w-full flex justify-center items-center lg:pl-1">
+        <div className="bg-red-50 w-full h-auto flex justify-center items-center">
           <motion.div
-            className=" flex flex-col justify-start items-center gap-4  w-[500px]  pr-32 sm:pr-0 "
+            className="flex flex-col justify-center items-center gap-4 w-[500px] px-4"
             variants={initialAnimation}
-            initial={"hidden"}
-            whileInView={"visible"}
+            initial="hidden"
+            whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
           >
-            {" "}
-            <h4 className=" font-bold text-[#34cbc2] ">OUR PORTFOLIO</h4>
-            <h4 className="text-3xl font-extrabold leading-10 w-72 sm:w-auto text-center">
+            <h4 className="font-bold text-[#34cbc2]">OUR PORTFOLIO</h4>
+            <h4 className="text-3xl font-extrabold leading-10 text-center text-slate-800">
               Discover Our Recent{" "}
-              <span className="text-[#34cbc2] ">Projects </span> And{" "}
+              <span className="text-[#34cbc2]">Projects </span> And{" "}
               <span className="text-cyan-600">Showcases </span>
             </h4>
           </motion.div>
         </div>
+
         <Slider />
       </div>
     </div>

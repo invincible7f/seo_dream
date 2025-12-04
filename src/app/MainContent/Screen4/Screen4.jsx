@@ -15,8 +15,8 @@ export default function Screen4() {
 
   const TitleBlock = (
     <div className="flex flex-col gap-4 w-[480px] sm:pl-0 sm:pr-0 pl-12 pr-12">
-      <h4 className="font-bold text-[#34cbc2] text-center">OUR SERVICES</h4>
-      <h4 className="text-3xl font-extrabold leading-10 text-center">
+      <h4 className="font-bold text-[#34cbc2] text-center ">OUR SERVICES</h4>
+      <h4 className="text-3xl font-extrabold leading-10 text-center text-slate-800">
         Discover What We Do & <span className="text-cyan-600">Offer</span> To
         Our
         <span className="text-[#34cbc2]"> Clients</span>

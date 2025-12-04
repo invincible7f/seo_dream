@@ -24,7 +24,7 @@ export default function ContainerInfo() {
 
   const Content = (
     <div className="flex flex-col gap-10 cursor-default">
-      <div className="max-w-full  flex flex-col  gap-2 mt-20 items-center justify-center  md:ml-[100px] lg:ml-0 w-full lg:max-w-[600px] xl:w-[500px] sm:w-[410px] md:w-[500px] sm:flex-row sm:justify-between sm:ml-10">
+      <div className="max-w-full  flex flex-col text-slate-800  gap-2 mt-20 items-center justify-center  md:ml-[100px] lg:ml-0 w-full lg:max-w-[600px] xl:w-[500px] sm:w-[410px] md:w-[500px] sm:flex-row sm:justify-between sm:ml-10">
         {info.map((item, index) => (
           <div
             key={index}
