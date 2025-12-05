@@ -37,8 +37,8 @@ export default function ContainerInfo() {
           </div>
         ))}
       </div>
-      <div className="-700 w-full flex flex-col gap-12 lg:w-[600px] sm:w-[500px] md:w-[600px] sm:pl-0 md:pl-[100px] lg:pl-0">
-        <h1 className="w-full text-[60px] text-center lg:text-[55px] font-extrabold xl:w-[500px] 2xl:w-[600px] lg:text-left sm:text-[60px] sm:text-center bg-gradient-to-r from-[#fa9753] to-[#fe566b] bg-clip-text text-transparent">
+      <div className="-700 w-full flex flex-col justify-center items-center gap-12 lg:w-[600px] sm:w-[500px] md:w-[600px] sm:pl-0 md:pl-[100px] lg:pl-0">
+        <h1 className="w-[350px] text-[60px] text-center lg:text-[55px] font-extrabold xl:w-[500px] 2xl:w-[600px] lg:text-left sm:text-[60px] sm:text-center bg-gradient-to-r from-[#fa9753] to-[#fe566b] bg-clip-text text-transparent">
           SEO & Digital Marketing Agency
         </h1>
         <div className="w-full flex justify-center lg:justify-start lg:w-auto sm:w-40 sm:ml-44 lg:ml-0">
